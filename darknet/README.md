@@ -5,7 +5,7 @@
   [https://developer.nvidia.com/embedded/jetpack](https://developer.nvidia.com/embedded/jetpack)
 
 2. follow pre setting.  
-- [pre-procedure about default runtime "nvidia"](./default-rumtime-nvidia.md)
+- [pre-procedure about default runtime "nvidia"](../default-rumtime-nvidia.md)
 
 3. pull docker origin  
 You need to select a pull tag to suit your JetPack version.  
