@@ -5,5 +5,5 @@
 
 ## pre-procedure about default runtime "nvidia"
 
- [pre-procedure about default runtime "nvidia"](https://raw.githubusercontent.com/daizyu/jetson_xavier_nx_dockers/main/default-rumtime-nvidia.md)
+- [pre-procedure about default runtime "nvidia"](./default-rumtime-nvidia.md)
 

@@ -1,12 +1,11 @@
 ## darknet installation July, 10, 2022
 1. precondition  
   JetPack 4.6.1  
-  Burn it to SD card.
+  Burn it to SD card.  
   [https://developer.nvidia.com/embedded/jetpack](https://developer.nvidia.com/embedded/jetpack)
 
 2. follow pre setting.  
-
-  [default runtime setting to nvidia](https://raw.githubusercontent.com/daizyu/jetson_xavier_nx_dockers/main/default-rumtime-nvidia.md)  
+- [pre-procedure about default runtime "nvidia"](./default-rumtime-nvidia.md)
 
 3. pull docker origin  
 You need to select a pull tag to suit your JetPack version.  
@@ -29,6 +28,6 @@ sudo docker build -t darknet:1.0.0 ./
 ``` bash
 sudo docker run -it --network host --runtime nvidia darknet:1.0.0
 ```
-To be honest , you don't need to add ***--runtime nvidia*** , because you already set default runtime to nvidia.  
+To be honest , you don't need to add ***--runtime nvidia*** , because you already set default runtime to nvidia.    
 Anyway, I recommend to put  ***--runtime nvidia*** in this step.
 
